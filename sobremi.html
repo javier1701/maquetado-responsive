@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagen/WEB.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Blog - Sobre Mi</title>
+    <meta name="description" content="Proyecto de Mini Blog para la materia de IHC, con HTML5, CSS,  Git, GitHub y Vercel">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="JAVIER BERIGUETE">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  </head>
+  <body>
+    <div class="container">
+       <!--ENCABEZADO-->
+        <header>
+          <h1>BIENVENIDOS A MI MINI-BLOG</h1>
+        </header> 
+      <!--NAVEGACION-->
+      <nav>
+ 
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Inicio</a>
+          <a href="sobremi.html"class="active">Sobre Mi</a>
+          <a href="curso.html">Cursos</a>
+          <a href="contactos.html">Contactos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    <!--CONTENIDO-->
+    <section id="contenido">
+
+      <!--ARTICULOS-->
+      <article>
+        <h2>¿Quien Soy?</h2>
+
+     
+        <hr>
+        <p class="Articulo1">
+            Mi nombre es Javier Beriguete Beriguete. Estudiante de la Universidad Dominicana O&M, en la carrera de Ingenieria en Sistemas y
+            Computación.</p>
+
+            <img class="foto" src="imagen/Picture1.jpg" alt="Foto"><br>
+            <h3 class="sklill">Conocimientos basicos en: Desarrollo Front-end | Xamarin | SQL Server | Ingles Avanzado</h3>
+
+        <p class="Articulo1">
+	  <br>
+	  <br>
+          Soy un joven estudiante, entusiasta de la ciencia de la computacion, con un gran interés en el desarrollo de software, mas orientado al desarrollo web. Me gusta mucho el codigo, aun quizas no me llamaria un apasionado del mismo, debido a que no he alcanzado el nivel de conocimiento que me gustaria por falta de motivacion.            <br> <br>
+	  Entiendo que estamos en la era de la tecnologia, donde todo esta orientado a la tecnologia. Debido a esto, inicio mi interes en las ciencias de la computacion porque entendi que el mundo estaria mas y mas orientado al uso de las tecnologias. 
+
+          Como estudiante, actualmente, tengo experiencia, aunque no muy extensa, en el Desarrollo Web Frontend con (HTML, CSS y JavaScript). 
+          <br> <br>
+          De igual manera tengo conocimientos avanzados en el idioma Ingles, debido que actualmente me desenvuelvo en un ambiente laboral de una empesa extranjera y que requiere/exige conocimientos del idioma. Tengo tambien conocimientos en Administracion de Redes y manejo Sistemas Operativos Windows Server y Linux. 
+        </p> 
+     
+          </article> 
+          <hr>
+          <div class="redes">
+            <h2>Me pueden seguir en mis Redes Sociales</h2>
+
+            <!-- Agregamos font awesome icons -->
+           <a href="https://do.linkedin.com/in/javier-beriguete-594817199" class="fa fa-linkedin-square"  style="font-size:30px"></a>
+           <a href="https://www.youtube.com/" class="fa fa-youtube-square" style="font-size:30px"></a>
+           <a href="https://www.facebook.com/" class="fa fa-facebook-square" style="font-size:30px"></a>
+           <a href="https://www.twitter.com/" class="fa fa-twitter-square" style="font-size:30px"></a>
+           <a href="https://github.com/" class="fa fa-github-square" style="font-size:30px"></a>
+	  <br>
+	  <br>
+	  <br>
+        
+          </div>
+      
+
+</section>
+        <!--PUBLICIDAD-->
+        <aside>
+          <h2>😁(Finge hasta que lo consigas)</h2>
+          <img src="https://static.wixstatic.com/media/ec7115_a6f8311d036040e7bd440526189a3d8f~mv2.gif" alt="">
+          <br>
+          <h2>📊Que necesitas saber de Data Science</h2>
+          <iframe  class="video" src="https://www.youtube.com/embed/Lt2P88q0Y68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          
+        
+          <br>
+        
+          <h2>🌍La ruta para aprender Desarrollo Web</h2>
+          <iframe class="video"  src="https://www.youtube.com/embed/ExsGyZDBlJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          
+          
+          
+        
+        
+        </aside>
+        
+        <div class="clearfix" ></div>
+
+          <!--FOOTER O PIE DE PAGINA-->
+          <footer>
+            <p class="footer"> &copy;All rights reserved - Creado/Editado por Javier Beriguete. Contacto <a id="btn-contacto" href="contactos.html" >aqui:</a></p>
+          </footer>
+        </div>
+
+     <!--FUNCION JAVASCRIPT PARA EL MENU-->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+  </body>
+</html>
